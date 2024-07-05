@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainbar{
+    width: 105%;
+    height: 1000px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+}
+.leftbar{
+    width: 100px;
+    height: 800px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    margin-top: 200px;
+    padding: 50px;
+    display: flex;
+
+
+
+}
+.items1{
+    color: white;
+    background-color: rgb(0, 0, 0);
+
+}
+.items i{
+    font-size: 30px;
+    padding: 8px;
+    
+}
+.items2 {
+    display: none;
+}
+.leftbar:hover .items2{
+    display: block;
+
+}
+.items2{
+    color: darkorange;
+    background-color: rgb(0, 0, 0);
+
+}
+.items2 h2{
+    padding: 10px;
+}
+
+
+
+
+/* contendbar */
+.contendbar{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 150px;
+}
+.conbox1{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.conbox1 video{
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+}
+.conbox1 video:hover{
+    width: 200px;
+}
+p{
+    font-size: x-large;
+}
+.conbox2{
+    width: 100%;
+    height: 165px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.conbox2 img{
+    width: 250px;
+    margin: 10px;
+
+}
+.conbox2 img:hover{
+    width: 300px;
+    
+}
+.conbox3{
+    width: 100%;
+    height: 165px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.conbox3 img{
+    width: 250px;
+    margin: 10px;
+
+}
+.conbox3 img:hover{
+    width: 300px;
+}
