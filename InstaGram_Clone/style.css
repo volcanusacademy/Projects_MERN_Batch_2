@@ -1,0 +1,131 @@
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Style+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+.side_bar{
+    width: 20%;
+    display: flex;
+    /* background-color: blueviolet; */
+    height: 90vh;
+    /* overflow-y: hidden; */
+}
+.side_menu{
+    padding: 20px;
+}
+.items{
+    padding: 15px;
+    font-size: 1rem;
+}
+.items h3{
+    font-family: Style Script;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+.border_right{
+    height: 100vh;
+    border-right: 1px solid rgb(87, 86, 86);
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    /* object-fit: contain; */
+    height: 60px;
+    width: 60px;
+    border: 3px solid rgba(197, 53, 51, 0.921);
+    border-radius: 100%;
+}
+.post_section{
+    width: 50%;
+}
+.suggestion{
+    width: 30%;
+}
+.post_stories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;   
+    margin-top: 1rem;
+}
+.instagram{
+    display: flex;
+}
+.person_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.person_img img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.person{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.suggest_person{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.suggestion{
+    margin-top: 2rem;
+}
+.content {
+    font-size: 1vw;
+}
+.brand_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.brand_img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.brand_img .text{
+    display: flex;
+    flex-direction: column;
+}
+.brand{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.post_content{
+    margin-top: 1.5rem;
+}
+.post_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post_img img{
+    object-fit: contain;
+    width: 80%;
+    height: 65vh;
+    border: 1px solid rgb(87, 86, 86);
+    margin-top: 5px;
+    border-radius: 1%;
+}
