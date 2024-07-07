@@ -1,0 +1,6 @@
+@media screen (max-width:1020px){
+    .right_side_bar{
+        display: none;
+    }
+    
+}

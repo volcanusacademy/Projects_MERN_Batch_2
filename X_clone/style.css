@@ -1,0 +1,177 @@
+:root{
+    --primary-bgcolor:black;
+    --superman-bgcolor:rgb(255, 255, 255);
+    --secodary-bgcolor:black;
+    --danger-bgcolor:red;
+    --warning-bgcolor:yellow;
+    --main-color:white;
+
+
+
+}
+body{
+    background-color:var(--primary-bgcolor);
+    color: var(--main-color);
+}
+.left_side_bar{
+    width: 20%;
+    height: 100vh;
+    background-color:var(--primary-bgcolor);
+    margin-left: 40px;
+    border-right: 2px solid rgb(28, 27, 27);
+
+}
+.post_section{
+    width: calc(100% - 40%);
+    background-color: var(--danger-bgcolor);
+    height: 100vh;
+
+}
+.right_side_bar{
+    width: 20%;
+    background-color: var(--warning-bgcolor);
+    height: 100vh;
+
+
+}
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_side_bar .logo .img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--secodary-bgcolor); */
+}
+.left_side_bar .logo .img img {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+.left_side_bar .logo .img:hover{
+    background-color: brown;
+    border-radius: 100px;
+}
+.side_content .items{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+}
+.side_content .items .material-symbols-outlined{
+    margin-right: 10px;
+    
+}
+.left_side_bar .post{
+    background-color: blue;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50px;
+}
+.top_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_left .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.border_items{
+    display: flex;
+    justify-content: space-around;
+}
+.border_items .item{
+    
+    /* padding: 15px; */
+    width: 46%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.border_items .item:hover{
+    background-color: rgb(20 ,20 ,20);
+}
+#test{
+    width: 100px;
+    padding: 15px;
+    border-bottom: 5px solid blue;
+}
+.border_items .item .borber{
+   
+    width: 100px;
+    text-align: center;
+
+
+
+}
+.border_items .item:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.border_items{
+    border-bottom: 1px solid #000;
+
+}
+.following .items .person{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.following .items .person .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.following .items .person .img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.following .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+
+
+} 
+.following {
+    padding: 20px;
+}
+.following .follow{
+    background-color: aqua;
+    border-radius: 20px;
+    color: #000;
+    padding: 10px 15px 10px;
+}
+
+
+
+
+
+
