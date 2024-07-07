@@ -1,0 +1,47 @@
+body{
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(79, 21, 133);
+}
+
+.nav .brand {
+    width: 20%;
+    
+}
+
+.nav .search {
+
+    width: 500px;
+    margin: auto;
+}
+
+.nav .cart {
+    width: 20%;
+}
+
+.nav .search input {
+    width: 400px;
+}
+
+.nav .search input::placeholder{
+    font-weight: bold;
+    padding: 5px;
+}
+.sub_bar{
+    background-color: rgb(57, 17, 94);
+}
+.sub_bar .items{
+    padding: 15px;
+    font-weight: bold;
+}
+
+.sub_bar .items:hover{
+    background-color: black;
+    cursor: pointer;
+}
