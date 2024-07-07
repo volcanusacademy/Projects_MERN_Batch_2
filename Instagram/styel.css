@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+    
+}
+.side_bar{
+    height: 95vh;
+    width: 20%;
+    display: flex;
+    /* background-color: blueviolet; */
+}
+.side_menu{
+    padding: 20px;
+    /* border: 1px solid white; */
+
+}
+.items{
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.fa-solid{
+    margin-right: 10px;
+}
+.border_right{
+    height: 100vh;
+    border: 1px solid white;
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    /* object-fit: contain; */
+    border-radius: 100%;
+    border: 2px solid yellow;
+    height: 80px;
+    width: 80px;
+}
+.post_stories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    margin-top: 1rem;
+}
+.post_section{
+    width: 50%;
+    margin-top: 30px;
+}
+.suggestion{
+    width: 20%;
+}
+.instagram{
+    display: flex;
+
+}
+p{
+    display: inline-block;
+}
+.post_sectionimage_add{
+    height: 50px;
+    width: 50px;
+    display: contents;
+}
+.person_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.person_img img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.person{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+    
+}
+.brand_img img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+
+}
+.post{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 8px;
+
+}
+.add_image{
+    height: 300px;
+    width: 300px;
+
+}
+
+.suggest_person{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+.suggestion{
+    margin-top: 1.5rem;
+    padding: 10px;
+}
+.content h3{
+    font-size: 1vw;
+}
